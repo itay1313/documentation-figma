@@ -1,7 +1,7 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "code-connect": "Code Connect",
+  "components": "Components Folder",
   "about": {
     "title": "About",
     "type": "page"

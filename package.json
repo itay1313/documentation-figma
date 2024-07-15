@@ -1,7 +1,7 @@
 {
-  "name": "nextra-docs-template",
+  "name": "l-dsm",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "L DSM",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/itay1313/documentation-figma.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Itay Haephrati <itaycode@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/itay1313/documentation-figma/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/itay1313/documentation-figma#readme",
   "dependencies": {
     "@figma/code-connect": "^1.0.2",
     "next": "^13.0.6",

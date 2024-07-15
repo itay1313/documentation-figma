@@ -4,12 +4,12 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>L DSM</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/itay1313/documentation-figma',
   },
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/itay1313/documentation-figma',
   footer: {
     text: 'L DSM © 2024',
   },

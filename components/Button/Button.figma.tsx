@@ -12,16 +12,16 @@ import figma from "@figma/code-connect"
 
 figma.connect(
   Button,
-  "https://www.figma.com/design/46ekGSoaClnTutKM5a09z4/Components?node-id=46-156&t=YbipPO26AbTPmA50-4",
+  "https://www.figma.com/design/46ekGSoaClnTutKM5a09z4/Components?node-id=46%3A156",
   {
     props: {
       iconL: figma.boolean("icon L"),
       iconR: figma.boolean("icon R"),
-      labeltextrtl: figma.string("✏️ label text rtl"),
-      statusindicator: figma.boolean("status-indicator"),
-      labeltext: figma.string("✏️ label text"),
-      iconLinstance: figma.instance("🔁 icon L"),
-      iconRinstance: figma.instance("🔁 icon R"),
+      labelTextRTL: figma.string("✏️ label text rtl"),
+      statusIndicator: figma.boolean("status-indicator"),
+      labelText: figma.string("✏️ label text"),
+      iconLInstance: figma.instance("🔁 icon L"),
+      iconRInstance: figma.instance("🔁 icon R"),
       type: figma.enum("type", {
         primary: "primary",
         secondary: "secondary",
@@ -46,10 +46,6 @@ figma.connect(
         disabled: "disabled",
       }),
     },
-    example: ({ labeltext, ...props }) => (
-      <Button {...props} label={labeltext} onClick={() => {}}>
-        {labeltext}
-      </Button>
-    ),
+    example: (props) => <Button {...props} label={props.labelText} />,
   }
 )

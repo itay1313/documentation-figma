@@ -1,0 +1,90 @@
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Types */
+.btn_primary {
+  background-color: #3F546D;
+  color: white;
+}
+
+.btn_secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Sizes */
+.btn_l {
+  font-size: 20px;
+  padding: 12px 24px;
+}
+
+.btn_m {
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+.btn_s {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+/* Statuses */
+.btn_none {
+  opacity: 1;
+}
+
+.btn_success {
+  border: 2px solid green;
+}
+
+.btn_danger {
+  border: 2px solid red;
+}
+
+.btn_warning {
+  border: 2px solid orange;
+}
+
+/* RTL */
+.btn_rtl {
+  direction: rtl;
+}
+
+/* States */
+.btn_idle {}
+
+.btn_hover:hover {
+  opacity: 0.8;
+}
+
+.btn_pressed:active {
+  opacity: 0.6;
+}
+
+.btn_focused:focus {
+  outline: 2px solid blue;
+}
+
+.btn_disabled {
+  background-color: grey;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.status-indicator {
+  margin-left: 8px;
+  width: 8px;
+  height: 8px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
